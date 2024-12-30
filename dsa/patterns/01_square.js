@@ -9,7 +9,7 @@ Print the following pattern:
 *****
 */
 
-const printSquarePattern = (n) => {
+const printSolidSquare = (n) => {
   for (let i = 0; i < n; i++) {
     let str = "";
     for (let j = 0; j < n; j++) {
@@ -19,4 +19,4 @@ const printSquarePattern = (n) => {
   }
 };
 
-printSquarePattern(4);
+printSolidSquare(4);

@@ -9,7 +9,7 @@ Print the following pattern:
 *****
 */
 
-const incrementPattern = (n) => {
+const printIncreasingStarTriangle = (n) => {
   for (let i = 0; i < n; i++) {
     let str = "";
     for (let j = 0; j <= i; j++) {
@@ -19,4 +19,4 @@ const incrementPattern = (n) => {
   }
 };
 
-incrementPattern(5);
+printIncreasingStarTriangle(5);
